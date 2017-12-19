@@ -11,16 +11,16 @@ digraph G {
   "SwLounge" [label="NetGear GS208", color="red"]
   "SwOffice" [label="TL-SG1024D", color="red"]
   "SwLoft" [label="NetGear GS116E", color="red"]
-  "SwGarage" [label="NetGear GSxxx", color="red"]
+  "SwGarage" [label="NetGear GS608", color="red"]
   "ApBed1" [label="TL-WR841N/ND", color="red"]
   "ApBed2" [label="TL-WR2543N/ND", color="red"]
-  "ApGarage" [label="WRTNODE", color="red"]
-  "AcCloak" [label="TL-WR703N", color="red"]
+  "ApGarage" [label="WRTnode", color="red"]
+  "AcCloak" [label="TL-WR703N", color="hotpink"]
   
   "NAS" [label="DS411j", color="green"]
-  "OBi" [label="OBi110", color="green"]
+  "OBi" [label="OBi110", color="lightseagreen"]
   
-  "XBox" [label="XBox360", color="blue"]
+  "XBox" [label="XBox360", color="navy"]
   "Brix" [label="Brix", color="green"]
   "RxGames" [label="NR1504", color="blue"]
   "OEGames" [label="RPiOE", color="green"]
@@ -47,11 +47,11 @@ digraph G {
   
   
   "NUC" [label="NUC", color="green"]
-  "PrBW" [label="2420dn", color="blue"]
-  "PrC" [label="1320c", color="blue"]
+  "PrBW" [label="2420dn", color="purple"]
+  "PrC" [label="1320c", color="purple"]
   "RPi" [label="RPi1", color="green"]
   "X200b" [label="X200base", color="green"]
-  "ATA" [label="GS286", color="blue"]
+  "ATA" [label="GS286", color="lightseagreen"]
   "Sidecar" [label="NL40L", color="green"]
   
   "Gen7-1" [label="NL36L", color="green"]
@@ -127,11 +127,11 @@ digraph G {
   "SwLoft" -> "Gen8-2-ILO"
   "SwLoft" -> "OEBed3"
   
-  "Gen-8-1" -> "KubeMaster"
-  "Gen-8-1" -> "NAS4Free"
-  "Gen-8-1" -> "Pangolin"
-  "Gen-8-1" -> "Trusty"
-  "Gen-8-1" -> "VDC2"
+  "Gen8-1" -> "KubeMaster"
+  "Gen8-1" -> "NAS4Free"
+  "Gen8-1" -> "Pangolin"
+  "Gen8-1" -> "Trusty"
+  "Gen8-1" -> "VDC2"
   
   "ApBed2" -> "OEBed2"
   "ApBed2" -> "GamingRig"
