@@ -38,6 +38,14 @@ digraph G {
   "Paralax" [label="Paralax", color="green"]
   "MEGarage" [label="RpiME", color="green"]
   
+  "Docker" [label="Docker", color="orange"]
+  "KubeNode1" [label="KubeNode1", color="orange"]
+  "Lynx" [label="Lynx", color="orange"]
+  "OpenELEC" [label="OpenELEC", color="orange"]
+  "VDC1" [label="VDC1", color="orange"]
+  "WinDemo" [label="WinDemo", color="orange"]
+  
+  
   "NUC" [label="NUC", color="green"]
   "PrBW" [label="2420dn", color="blue"]
   "PrC" [label="1320c", color="blue"]
@@ -53,16 +61,23 @@ digraph G {
   "Gen8-2" [label="MSGen8", color="green"]
   "Gen8-2-ILO" [label="ILO", color="green"]
   
+  "KubeMaster" [label="KubeMaster", color="orange"]
+  "NAS4Free" [label="NAS4Free", color="orange"]
+  "Pangolin" [label="Pangolin", color="orange"]
+  "Trusty" [label="Trusty", color="orange"]
+  "VDC2" [label="VDC2", color="orange"]  
+  
   "OEBed3" [label="RPiOE", color="green"]
   
   "OEBed2" [label="RPiOE", color="green"]
   "GamingRig" [label="GamingRig", color="green"]
-    
+  
   "Router" -> "SwCloak"
   "Router" -> "SwGames"
   "Router" -> "SwLounge"
   "Router" -> "SwOffice"
   "Router" -> "SwGarage"
+  "Router" -> "AcCloak"
   "SwCloak" -> "ApBed1"
   "SwOffice" -> "SwLoft"
   "SwLoft" -> "ApBed2"
@@ -87,7 +102,14 @@ digraph G {
   "SwGarage" -> "T110"
   "SwGarage" -> "Nanode"
   "SwGarage" -> "Paralax"
-  "SwGarage" -> "MEGarage"  
+  "SwGarage" -> "MEGarage"
+  
+  "T110" -> "Docker"
+  "T110" -> "KubeNode1"
+  "T110" -> "Lynx"
+  "T110" -> "OpenELEC"
+  "T110" -> "VDC1"
+  "T110" -> "WinDemo"
   
   "SwOffice" -> "NUC"
   "SwOffice" -> "PrBW"
@@ -105,7 +127,13 @@ digraph G {
   "SwLoft" -> "Gen8-2-ILO"
   "SwLoft" -> "OEBed3"
   
-  "SwBed2" -> "OEBed2"
-  "SwBed2" -> "GamingRig"
+  "Gen-8-1" -> "KubeMaster"
+  "Gen-8-1" -> "NAS4Free"
+  "Gen-8-1" -> "Pangolin"
+  "Gen-8-1" -> "Trusty"
+  "Gen-8-1" -> "VDC2"
+  
+  "ApBed2" -> "OEBed2"
+  "ApBed2" -> "GamingRig"
   
 }
