@@ -57,9 +57,9 @@ digraph G {
   "Gen7-1" [label="NL36L", color="green"]
   "Gen7-2" [label="NL40L", color="green"]
   "Gen8-1" [label="MSGen8", color="green"]
-  "Gen8-1-ILO" [label="ILO", color="green"]
+  "Gen8-1-ILO" [label="ILO", color="olivedrab"]
   "Gen8-2" [label="MSGen8", color="green"]
-  "Gen8-2-ILO" [label="ILO", color="green"]
+  "Gen8-2-ILO" [label="ILO", color="olivedrab"]
   
   "KubeMaster" [label="KubeMaster", color="orange"]
   "NAS4Free" [label="NAS4Free", color="orange"]
@@ -100,6 +100,7 @@ digraph G {
   "SwLounge" -> "TVLounge"
   
   "SwGarage" -> "T110"
+  "SwGarage" -> "T110"
   "SwGarage" -> "Nanode"
   "SwGarage" -> "Paralax"
   "SwGarage" -> "MEGarage"
@@ -123,7 +124,11 @@ digraph G {
   "SwLoft" -> "Gen7-2"
   "SwLoft" -> "Gen8-1"
   "SwLoft" -> "Gen8-2"
+  "SwLoft" -> "Gen8-1"
+  "SwLoft" -> "Gen8-2"
+  "Gen8-1" -> "Gen8-1-ILO"
   "SwLoft" -> "Gen8-1-ILO"
+  "Gen8-2" -> "Gen8-2-ILO"
   "SwLoft" -> "Gen8-2-ILO"
   "SwLoft" -> "OEBed3"
   
