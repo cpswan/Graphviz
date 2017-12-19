@@ -5,7 +5,27 @@ digraph G {
   
   node [color="black", shape="rectangle"]
   
+  "Routers" [label="Router", color="crimson"]
+  "Switches" [label="Switch", color="red"]
+  "APs" [label="Access Point", color="red2"]
+  "ACs" [label="Client Bridge", color="hotpink"]
+  "NASs" [label="NAS", color="olivedrab1"]
+  "ATAs" [label="NAS", color="lightseagreen"]
+  "Consoles" [label="Console", color="navy"]
+  "PCs" [label="PC", color="green"]
+  "AV" [label="AV", color="blue"]
+  "RPiAs" [label="RPi OpenELEC/MobileEye", color="limegreen"]
+  "vSphere" [label="vSphere host", color="seagreen"]
+  
   "Router" [label="DrayTek 2820Nplus",color="crimson"]
+  
+  "DevBoards" [label="DevBoard", color="lawngreen"]
+  "RPis" [label="RPi", color="mediumspringgreen"]
+  "Printers" [label="Printer", color="purple"]
+  "NixVMs" [label="*nix VM", color="orange"]
+  "WinVMs" [label="Windows VM", color="lightslateblue"]
+  "ILOs" [label="ILO", color="olivedrab"]
+  
   "SwCloak" [label="NetGear GS605", color="red"]
   "SwGames" [label="NetGear GS208", color="red"]
   "SwLounge" [label="NetGear GS208", color="red"]
@@ -33,7 +53,7 @@ digraph G {
   "DVRLounge" [label="DMR-PWT530", color="blue"]
   "TVLounge" [label="TX43D302B", color="blue"]
   
-  "T110" [label="T110II", color="green"]
+  "T110" [label="T110II", color="seagreen"]
   "Nanode" [label="Nanode", color="lawngreen"]
   "Paralax" [label="Paralax", color="lawngreen"]
   "MEGarage" [label="RpiME", color="limegreen"]
@@ -54,11 +74,11 @@ digraph G {
   "ATA" [label="GS286", color="lightseagreen"]
   "Sidecar" [label="NL40L", color="green"]
   
-  "Gen7-1" [label="NL36L", color="green"]
-  "Gen7-2" [label="NL40L", color="green"]
-  "Gen8-1" [label="MSGen8", color="green"]
+  "Gen7-1" [label="NL36L", color="seagreen"]
+  "Gen7-2" [label="NL40L", color="seagreen"]
+  "Gen8-1" [label="MSGen8", color="seagreen"]
   "Gen8-1-ILO" [label="ILO", color="olivedrab"]
-  "Gen8-2" [label="MSGen8", color="green"]
+  "Gen8-2" [label="MSGen8", color="seagreen"]
   "Gen8-2-ILO" [label="ILO", color="olivedrab"]
   
   "KubeMaster" [label="KubeMaster", color="orange"]
