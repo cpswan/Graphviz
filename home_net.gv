@@ -1,0 +1,28 @@
+digraph G {
+  ranksep=2.0
+  nodesep=2.0
+  overlap="false"
+  
+  node [color="black", shape="rectangle"]
+  
+  "Router" [label="DrayTek 2820Nplus",color="red"]
+  "SwCloak" [label="NetGear GS208", color="red"]
+  "SwGames" [label="NetGear GS208", color="red"]
+  "SwLounge" [label="NetGear GS208", color="red"]
+  "SwOffice" [label="TL-SG1024D", color="red"]
+  "SwLoft" [label="NetGear GS116E", color="red"]
+  "SwGarage" [label="NetGear GSxxx", color="red"]
+  "ApBed1" [label="TL-WR841N/ND", color="red"]
+  "ApBed2" [label="TL-WR2543N/ND", color="red"]
+  "ApGarage" [label="WRTNODE", color="red"]
+  
+  "Router" -> "SwCloak"
+  "Router" -> "SwGames"
+  "Router" -> "SwLounge"
+  "Router" -> "SwOffice"
+  "Router" -> "SwGarage"
+  "SwCloak" -> "ApBed1"
+  "SwOffice" -> "SwLoft"
+  "SwLoft" -> "ApBed2"
+  "SwGarage" -> "ApGarage"
+}
